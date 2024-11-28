@@ -1,0 +1,47 @@
+/* Slide 106 (#1) */
+/* To restrict styles to the current slide, panel, or example use .slide[data-cid="slide-106-6bab97d7"] */
+.slide[data-cid=slide-106-6bab97d7] .btn-106 {
+  height: 20px;
+  width: 20px !important;
+  background: #202020 url(../assets/svg/play.svg) 50% 50% no-repeat;
+  background-size: 10px;
+  border-radius: 50%;
+}
+.slide[data-cid=slide-106-6bab97d7].whiteSlide .block-106 .actionButton.white {
+  background: #BBBBBB !important;
+  fill: #202020 !important;
+}
+.slide[data-cid=slide-106-6bab97d7].whiteSlide .block-106 .actionButton svg {
+  fill: #fff;
+}
+.slide[data-cid=slide-106-6bab97d7]:not(.whiteSlide) .block-106 .actionButton svg {
+  fill: #202020 !important;
+}
+.slide[data-cid=slide-106-6bab97d7] .social-106.button.actionButton:hover:not(:active) {
+  transform: scale(1.1) !important;
+}
+.slide[data-cid=slide-106-6bab97d7] .img-106-middle, .slide[data-cid=slide-106-6bab97d7] .img-106-small {
+  position: absolute;
+}
+.slide[data-cid=slide-106-6bab97d7] .img-106-big {
+  width: 64.4%;
+}
+.slide[data-cid=slide-106-6bab97d7] .img-106-middle {
+  width: 54.24%;
+  top: 47.37%;
+  left: 44.68%;
+}
+.slide[data-cid=slide-106-6bab97d7] .img-106-small {
+  width: 40.68%;
+  top: 84.32%;
+  left: 10.17%;
+}
+@media (max-width: 767px) {
+  .slide[data-cid=slide-106-6bab97d7] .slide-106-reorder-0 {
+    order: 0;
+    margin-bottom: 33vw;
+  }
+  .slide[data-cid=slide-106-6bab97d7] .slide-106-reorder-1 {
+    order: 1;
+  }
+}

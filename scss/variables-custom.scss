@@ -1,0 +1,10 @@
+$white: #ffffff;
+@include generateColors('white',$white);
+$customGray1: #e9ebeb;
+@include generateColors('customGray1',$customGray1);
+$customGray2: #fdfdfd;
+@include generateColors('customGray2',$customGray2);
+$customGray3: #eef7ee;
+@include generateColors('customGray3',$customGray3);
+$customBlueColor: #233036;
+@include generateColors('customBlueColor',$customBlueColor);

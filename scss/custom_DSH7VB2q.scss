@@ -1,0 +1,241 @@
+/* 
+Compile this file to css/custom_DSH7VB2q.css using any SCSS preprocessor. 
+More information here: https://slides.gitbook.io/manual/scss
+*/
+
+@import "mixins.scss"; 
+@import "variables.scss";
+@import "variables-custom.scss";
+
+/* Slide 76 (#1) */
+/* To restrict styles to the current slide, panel, or example use .slide[data-cid="slide-76-1204ec5f"] */
+.slide[data-cid="slide-76-1204ec5f"]{
+  .custom-flex-76{
+  	display:inline-flex;
+    align-items:center;
+  }
+  
+  .button.button-76 {
+    width: 54px;
+    height: 54px;
+    padding: 16px 17px;
+   	font-size: 0;
+    svg {
+      width: 22px;
+      height: 22px;
+    }
+  }
+  @include media($tablet, min) {
+    .iphone-76 {
+      max-width: none;
+      margin-top: 60px;
+    }
+  }
+  .text-76 {
+    line-height: 1.75;
+    opacity: 1;
+    margin: 0;
+    margin-left: 20px;
+  }
+  @include media(570px, max) {
+    .text-76 strong {
+      display: block;
+    }
+    .text-76 {
+      font-size: 20px;
+    }
+  }
+}
+
+/* Pricing (#2) */
+/* To restrict styles to the current slide, panel, or example use .slide[data-cid="slide-169-280dafdc"] */
+.slide[data-cid="slide-169-280dafdc"]{
+  .box-169{
+    background: $customGray2 !important;
+    border: 1px solid $customGray1;
+    box-shadow: none;
+  }
+	p.text-customBlueColor{
+  	font-family: PT Serif;
+    letter-spacing: -0.315px;
+    line-height: normal;
+    font-style: normal;
+  }
+  .list-169{
+    li{
+      position:relative;
+      padding-left:34px;
+      &:before{
+        content:'';
+        position:absolute;
+        left:0;
+        top:-2px;
+        height: 24px;
+        width: 24px; 
+        border-radius: 50%;
+        background: rgba($green, 0.1) url('../assets/svg/template/check-bold-green.svg?p=wnFjyCkf') 50% 50% no-repeat;
+        background-size: 10px;
+      }
+    }
+  }
+  .customCenterEnd{
+  	align-items: flex-end; 
+  }
+}
+
+/* Pricing (#3) */
+/* To restrict styles to the current slide, panel, or example use .slide[data-cid="slide-169-632b1c4f"] */
+.slide[data-cid="slide-169-632b1c4f"]{
+  .box-169{
+    background: $customGray2 !important;
+    border: 1px solid $customGray1;
+    box-shadow: none;
+  }
+	p.text-customBlueColor{
+  	font-family: PT Serif;
+    letter-spacing: -0.315px;
+    line-height: normal;
+    font-style: normal;
+  }
+  .list-169{
+    li{
+      position:relative;
+      padding-left:34px;
+      &:before{
+        content:'';
+        position:absolute;
+        left:0;
+        top:-2px;
+        height: 24px;
+        width: 24px; 
+        border-radius: 50%;
+        background: rgba($green, 0.1) url('../assets/svg/template/check-bold-green.svg?p=wnFjyCkf') 50% 50% no-repeat;
+        background-size: 10px;
+      }
+    }
+  }
+  .customCenterEnd{
+  	align-items: flex-end; 
+  }
+}
+
+/* Slide 62 (#4) */
+/* To restrict styles to the current slide, panel, or example use .slide[data-cid="slide-62-a50be8d8"] */
+.slide[data-cid="slide-62-a50be8d8"]{
+  .flex-62 .material-icons {
+    margin-bottom: 10px;
+    margin-top: 15px;
+    font-size: 36px;
+  }
+  @include media($tablet, min) {
+    img.macbook-62 {
+      max-width: none;
+      float: left;
+      margin-left: 50px;
+    }
+  }
+}
+
+/* Slide 96 (#5) */
+/* To restrict styles to the current slide, panel, or example use .slide[data-cid="slide-96-2260034d"] */
+.slide[data-cid="slide-96-2260034d"]{
+  .music-96{
+    .player {
+      &.pause{
+        .play{display:block;}
+        .pause{display:none;}
+      }
+      .play{display:none;}
+      .pause{display:block;}
+      .playpause {
+        display:inline-flex;
+        justify-content:center;
+        align-items:center;
+        flex-shrink:0;
+        width:27px;
+        height:27px;
+        cursor: pointer;
+        box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.101421), 0px 1px 2px rgba(0, 0, 0, 0.101421);
+        img{
+          width:13px;
+          height:13px;
+        }
+      }
+      .trackinfo{
+        display:flex;
+        justify-content:space-between;
+        align-items:baseline;
+      }
+      .scrubber {
+        margin-top:17px;
+        .bar {
+          position:relative;
+          border-bottom:1px solid rgba(#ffffff,0.3);
+          height: 3px;
+          border-radius: 2px;
+          cursor: pointer;
+          transition:background-color 0.2s;
+          &:hover{
+            background:rgba(#ffffff,0.5);
+          }
+        }
+        .played {
+          position:absolute;
+          left:0;
+          top:0;
+          bottom:-1px;
+          background: #ffffff;
+          border-radius: 2px;
+        }
+      }
+    }
+  }
+  &.whiteSlide .music-96 .scrubber {
+    .bar {
+      border-bottom: 1px solid rgba(#202020,.2);
+    }
+    .played {
+      background: rgba(#202020,.5);
+    }
+  }
+}
+
+/* Slide 114 (#6) */
+
+/* To restrict styles to the current slide, panel, or example use .slide[data-cid="slide-114-bab7ce00"] */
+.slide[data-cid="slide-114-bab7ce00"]{
+  .social-114:hover{
+    opacity: 1 !important;
+  }
+  &.whiteSlide svg{
+    fill: $default-text-color !important; 
+    stroke: $default-text-color !important; 
+  }
+  &:not(.whiteSlide) svg{ 
+    fill: $default-white-color !important;
+    stroke: $default-white-color !important; 
+  }
+  .swiper-button-next, .swiper-button-prev{
+    height:30px;
+    width:30px;
+    top: 120px;
+  }
+  .swiper-button-prev{
+    left: -60px;
+  }
+  .swiper-button-next{
+    right: -60px;
+  }
+  @include media($phablet, max) {
+    .swiper-button-prev{
+        left: calc(50% - 60px);
+        bottom: -60px;
+        top: auto;    
+    }
+    .swiper-button-next{
+        right: calc(50% - 60px);
+        bottom: -60px;
+        top: auto;    
+    }   
+  }
+}
